@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechGen - Next Generation Technology</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <span class="hello-text">Hello</span>
+    </div>
+
+    <!--humberger-->
+    <div class="hamburger" id="hamburger-icon">
+        <div class="stripe"></div>
+        <div class="stripe"></div>
+        <div class="stripe"></div>
+    </div>
+    <!-- Main Content -->
+    <div id="main-content" class="hidden">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="logo">TechGen</div>
+            <div class="nav-links">
+                <a href="#hero">Home</a>
+                <a href="#work">Work</a>
+                <a href="#clients">Clients</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <h1>Building Tomorrow's Technology Today</h1>
+                <p>We create digital experiences that define the future</p>
+            </div>
+            <div id="hero-animation" class="hero-animation"></div>
+        </section>
+
+        <!-- Work Section -->
+        <section id="work" class="work">
+            <h2>What we Do</h2>
+            <div class="work-grid">
+                <div class="work-tile">
+                    <div class="work-front">
+                        <h3>Social Media Management</h3>
+                        <img src="social media.jpg" alt="Social Media">
+                    </div>
+                    <div class="work-back">
+                        <p>Stop wasting time on trial-and-error tactics. Let us handle your social media so you can focus on what you do best—running your business. Ready to elevate your online presence? Let's connect and transform your social media today!</p>
+                    </div>
+                </div>
+                <div class="work-tile">
+                    <div class="work-front">
+                        <h3>Web Development</h3>
+                        <img src="website.jpg" alt="website">
+                    </div>
+                    <div class="work-back">
+                        <p>Your audience is scrolling. Your competitors are posting. Why aren’t you dominating? Let’s take your website from forgettable to unstoppable. Time to make every section count. Ready? Let’s go!</p>
+                    </div>
+                </div>
+                <div class="work-tile">
+                    <div class="work-front">
+                        <h3>Networking</h3>
+                        <img src="server.jpg" alt="networking">
+                    </div>
+                    <div class="work-back">
+                        <p>Your network is the backbone of your business. Let’s make it stronger, smarter, and future-ready. Contact us today to take control of your infrastructure and leave network issues in the past!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+ <!-- Clients Section -->
+ <section id="clients" class="clients">
+    <h2>Our Clients</h2>
+    <div class="client-slider">
+        <div class="slider-content">
+            <div class="client">
+                <i data-lucide="building-2"></i>
+                <span>TechCorp</span>
+            </div>
+            <div class="client">
+                <i data-lucide="flask-conical"></i>
+                <span>InnovateLabs</span>
+            </div>
+            <div class="client">
+                <i data-lucide="rocket"></i>
+                <span>FutureX</span>
+            </div>
+            <div class="client">
+                <i data-lucide="database"></i>
+                <span>DataFlow</span>
+            </div>
+            <div class="client">
+                <i data-lucide="cloud"></i>
+                <span>CloudNine</span>
+            </div>
+            <!-- Duplicate for infinite scroll -->
+            <div class="client">
+                <i data-lucide="building-2"></i>
+                <span>TechCorp</span>
+            </div>
+            <div class="client">
+                <i data-lucide="flask-conical"></i>
+                <span>InnovateLabs</span>
+            </div>
+            <div class="client">
+                <i data-lucide="rocket"></i>
+                <span>FutureX</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <h2>How to Reach Us</h2>
+            <div class="contact-container">
+                <form id="contact-form" class="contact-form">
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea placeholder="Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+                <a href="https://wa.me/1234567890" class="whatsapp-button" target="_blank">
+                    Chat on WhatsApp
+                </a>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="faq">
+            <h2>FAQ</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">What technologies do you specialize in?</div>
+                    <div class="faq-answer">We specialize in AI, blockchain, IoT, and cloud computing solutions.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">How long does a typical project take?</div>
+                    <div class="faq-answer">Project timelines vary from 2-6 months depending on complexity and requirements.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Do you offer maintenance support?</div>
+                    <div class="faq-answer">Yes, we provide 24/7 maintenance support for all our solutions.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">What's your pricing model?</div>
+                    <div class="faq-answer">We offer flexible pricing based on project scope and requirements.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Do you work with startups?</div>
+                    <div class="faq-answer">Yes, we love working with startups and offer special startup packages.</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer id="footer" class="footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>TechGen</h3>
+                    <p>Building the future, one pixel at a time</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>hello@techgen.com</p>
+                    <p>+1 (555) 123-4567</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#">Twitter</a>
+                        <a href="#">LinkedIn</a>
+                        <a href="#">Instagram</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
